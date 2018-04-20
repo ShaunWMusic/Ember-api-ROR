@@ -1,6 +1,7 @@
 class BookResource < JSONAPI::Resource
   attributes :title, :isbn, :publish_date
   has_one :author
+  has_many :reviews
 
   filters :query
 
