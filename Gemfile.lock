@@ -69,6 +69,7 @@ GEM
     nio4r (2.2.0)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
+    pg (1.0.0)
     puma (3.11.3)
     rack (2.0.4)
     rack-cors (1.0.2)
@@ -130,6 +131,7 @@ DEPENDENCIES
   byebug
   jsonapi-resources
   listen (>= 3.0.5, < 3.2)
+  pg
   puma (~> 3.7)
   rack-cors
   rails (~> 5.1.5)
